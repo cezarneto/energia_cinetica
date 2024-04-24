@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.:: Calculadora de Energia Cinética - GitHub.com/cezarneto ::.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3><center>Calculadora de Energia Cinética</center></h3>
+
+    <form id="formulario">
+        <div class="campo">
+            <label for="massa"><b>Massa do Projétil (grains)</b>:</label>
+            <input type="number" id="massa" name="massa" required step="0.01">
+        </div>
+
+        <div class="campo">
+            <label for="velocidade"><b>Velocidade do Projétil (m/s)</b>:</label>
+            <input type="number" id="velocidade" name="velocidade" required step="0.01">
+        </div>
+
+        <button type="submit">Calcular</button>
+        <button type="reset">Limpar</button>
+    </form>
+
+    <div id="resultado">
+        <p><b>Energia Cinética:</b> <span id="energia-cinetica"></span> joules</p>
+    </div>
+
+    <script src="script.js"></script>
+
+    <div id="contato">
+      <p><center><a href="https://github.com/cezarneto">GitHub.com/cezarneto</a></center></p>
+    </div>
+
+</body>
+</html>

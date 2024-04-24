@@ -1,0 +1,74 @@
+/* Cores */
+body {
+    background-color: #f2f2f2; /* Cor de fundo clara */
+    color: #333; /* Cor de texto escura */
+}
+
+h3 {
+    color: #333; /* Cor de texto escura */
+    font-family: Tahoma;
+}
+
+/* Layout */
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; /* Largura fixa */
+    margin: 50px auto; /* Centralizar na página */
+    padding: 20px;
+    border: 1px solid #ccc; /* Borda sutil */
+    border-radius: 5px; /* Arredondar cantos */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+/* Inputs e botão */
+input[type="number"],
+button {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #2196F3; /* Azul marinho */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efeito hover */
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+button:hover {
+    background-color: #1976D2; /* Azul escuro */
+}
+
+/* Resultado */
+#resultado {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Tahoma;
+    font-size: 16px;
+}
+
+#energia-cinetica {
+    color: #2196F3; /* Azul marinho */
+    font-family: Tahoma;
+    font-size: 18px;
+}
+
+#contato {
+    color: #2196F3; /* Azul marinho */
+    font-family: Tahoma;
+    font-size: 10px;
+}
